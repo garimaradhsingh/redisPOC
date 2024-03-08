@@ -1,8 +1,9 @@
 package com.example.demo1.springdemo1.entity;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Movie {
+public class Movie implements Serializable{
 	
 	private int id;
 	private String movieName;
