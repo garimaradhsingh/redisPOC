@@ -1,8 +1,5 @@
 package com.example.demo1.springdemo1.dao;
 
-import org.springframework.stereotype.Repository;
-
-@Repository
 public interface MovieRepository {
 
 	

@@ -1,9 +1,11 @@
 package com.example.demo1.springdemo1.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.demo1.springdemo1.dao.MovieRepository;
 
+@Service
 public class MovieServiceImpl implements MovieService {
 	
 	@Autowired

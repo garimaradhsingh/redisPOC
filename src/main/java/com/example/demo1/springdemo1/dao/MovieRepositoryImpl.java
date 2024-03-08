@@ -2,7 +2,9 @@ package com.example.demo1.springdemo1.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class MovieRepositoryImpl implements MovieRepository {
 
 	@Autowired
